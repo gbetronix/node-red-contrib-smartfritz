@@ -1,9 +1,9 @@
 # Bugfixed SmartFritz for Node-RED (bugfix not finalized)
--> switch to fritzapi: Ok
--> update api usage: writer Ok, reader under dev
--> bugfix multi actor: writer Ok, reader under dev
--> enhance configuration for selectable actors: under dev
--> cleanup and format source code: under dev
+1. switch to fritzapi: Ok
+2. update api usage: writer Ok, reader under dev
+3. bugfix multi actor: writer Ok, reader under dev
+4. enhance configuration for selectable actors: under dev
+5. cleanup and format source code: under dev
 
 Easily integrate AVM Fritz!Dect 200 switches into your node-RED flow. Based on the smartfritz-promise library.
 Please make sure to give some critical feedback. :)
