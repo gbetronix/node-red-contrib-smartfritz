@@ -3,7 +3,7 @@
     category: "config",
     defaults: {
       name: {value:"", required: false},
-      fritzip: {value:"192.168.178.1", required: true}
+      fritzurl: {value:"http://fritz.box", required: true}
     },
     credentials: {
       username: {type: "text"},
@@ -28,8 +28,8 @@
         <input type="text" id="node-config-input-name" />
     </div>
     <div class="form-row">
-        <label for="node-config-input-fritzip"><i class="icon-bookmark"></i>IP</label>
-        <input type="text" id="node-config-input-fritzip" />
+        <label for="node-config-input-fritzurl"><i class="icon-bookmark"></i>URL</label>
+        <input type="text" id="node-config-input-fritzurl" />
     </div>
     <div class="form-row">
         <label for="node-config-input-username"><i class="icon-bookmark"></i>User (opt.)</label>
@@ -48,7 +48,7 @@
     defaults: {
       config: {type:"smartfritz-config", required:true},
       name: {value:"", required: false},
-      aid : {value:"0", required: false}
+      aid : {value:"", required: true}
     },
     inputs:1,
     outputs:1,
@@ -66,7 +66,7 @@
     defaults: {
       config: {type:"smartfritz-config", required:true},
       name: {value:"", required: false},
-      aid : {value:"0", required: false}
+      aid : {value:"", required: true}
     },
     inputs:1,
     outputs:1,
@@ -87,7 +87,7 @@
         <input type="text" id="node-input-name" />
     </div>
     <div class="form-row">
-        <label for="node-input-aid"><i class="icon-bookmark"></i>AID (opt.)</label>
+        <label for="node-input-aid"><i class="icon-bookmark"></i>AID</label>
         <input type="text" id="node-input-aid"/>
     </div>
 </script>
@@ -102,7 +102,7 @@
         <input type="text" id="node-input-name" />
     </div>
     <div class="form-row">
-        <label for="node-input-aid"><i class="icon-bookmark"></i>AID (opt.)</label>
+        <label for="node-input-aid"><i class="icon-bookmark"></i>AID</label>
         <input type="text" id="node-input-aid"/>
     </div>
 </script>
