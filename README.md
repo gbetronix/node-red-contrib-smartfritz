@@ -1,7 +1,7 @@
 # Bugfixed SmartFritz for Node-RED (bugfix not finalized)
 1. switch to fritzapi: Ok
-2. update api usage: writer Ok, reader under dev
-3. bugfix multi actor: writer Ok, reader under dev
+2. update api usage: Ok
+3. bugfix multi actor: Ok
 4. enhance configuration for selectable actors: under dev
 5. cleanup and format source code: under dev
 
